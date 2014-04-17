@@ -5,6 +5,7 @@ h1 {
 	color: #0078e7;
 	margin-bottom: 0.5em;
 }
+
 h2 {
 	font-family: 'Actor';
 	font-size: 2em;
@@ -12,24 +13,29 @@ h2 {
 	margin-top: 0.5em;
 	margin-bottom: 0em;
 }
+
 h3 {
 	font-family: 'Actor';
 	font-size: 1em;
 	text-align: center;
 }
+
 form {
 	text-align: center;
 }
+
 label {
 	font-family: 'Actor';
 	font-size: 2em;
 }
+
 input[type=text] {
 	font-size: 1.5em;
 	display: inline-block;
 	-webkit-border-radius: 10px;
 	-moz-border-radius: 10px;
 }
+
 button {
 	/*Button*/
 	background-color: #0078e7;
@@ -46,6 +52,34 @@ button {
 	padding-right: 0.25em;
 	margin-top: 0.5em;
 }
+
 .buttons {
 	text-align: center;
+}
+
+@media print {
+	h1 {
+		color: black;
+		font-size: 20pt;
+	}
+
+	h2, button {
+		display: none;
+	}
+
+	input[type=text] {
+		font-size: 14pt;
+	}
+
+	h3 {
+		font-size: 8pt;
+	}
+
+	a:link {
+		color: black;
+	}
+
+	a:visited {
+		color: black;
+	}
 }
