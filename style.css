@@ -1,0 +1,51 @@
+h1 {
+	font-family: 'Open Sans';
+	font-size: 3.5em;
+	text-align: center;
+	color: #0078e7;
+	margin-bottom: 0.5em;
+}
+h2 {
+	font-family: 'Actor';
+	font-size: 2em;
+	text-align: center;
+	margin-top: 0.5em;
+	margin-bottom: 0em;
+}
+h3 {
+	font-family: 'Actor';
+	font-size: 1em;
+	text-align: center;
+}
+form {
+	text-align: center;
+}
+label {
+	font-family: 'Actor';
+	font-size: 2em;
+}
+input[type=text] {
+	font-size: 1.5em;
+	display: inline-block;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+}
+button {
+	/*Button*/
+	background-color: #0078e7;
+	border-color: transparent;
+	margin-top: 1.5em;
+	/*Text*/
+	font-family: 'Actor';
+	font-size: 1.25em;
+	color: white;
+	text-align: center;
+	padding-top: 0.25em;
+	padding-bottom: 0.25em;
+	padding-left: 0.25em;
+	padding-right: 0.25em;
+	margin-top: 0.5em;
+}
+.buttons {
+	text-align: center;
+}
