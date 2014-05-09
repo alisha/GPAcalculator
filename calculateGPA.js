@@ -29,7 +29,7 @@ $(document).ready(function() {
 
 		//Count the total number of credits
 		for (var count = 0; count < $numClasses; count++) {
-			$grade = $('.grade').get(count).value;
+			$grade = $('.grade').get(count).value.toUpperCase();
 			$type = $('.selectForm').get(count).value;
 			$credits += findCredits($type, $grade);
 		}
@@ -37,7 +37,7 @@ $(document).ready(function() {
 		$gpa = ($credits/$numClasses).toFixed(2);
 
 		$('.results').html("<h1>Your GPA is: " + $gpa + "</h1>");
-
+		$('.results').scrollIntoView();
 	});
 
 	//Finds the number of credits for one class
