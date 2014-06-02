@@ -44,7 +44,7 @@ button {
 	border-color: transparent;
 	margin-top: 1.5em;
 	/*Text*/
-	font-family: 'Actor';
+	font-family: 'Actor', sans-serif;
 	font-size: 1.25em;
 	color: white;
 	text-align: center;
